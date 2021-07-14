@@ -35,5 +35,10 @@ RECIPES = {
     'mediterranea': {
         'ingredients': {'mozzarella': 3, 'pepper': 4, 'onion': 3},
         'price': 11,
-    }
+    },
+	'flex': {
+		'ingredients': {'tofu': 4, 'salad': 1, 'tabasco': 10},
+		'price': 2,
+	}
+
 }
