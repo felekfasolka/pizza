@@ -20,4 +20,3 @@ class TestSauce(TestCase):
         self.assertEqual(fridge.total_sauce_unit, 0)
         status, message = maker.take_an_order(pizza_name)
         self.assertTrue(status)
-        self.assertEqual(message, 'Sorry for the wait, I had to refill the sauce jar.')
